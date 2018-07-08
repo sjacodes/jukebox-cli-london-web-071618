@@ -46,7 +46,20 @@ def run(songs)
   loop do
     puts "Please enter a command:"
     input = gets.chomp
+    if input = "help"
+      help
+    if input = "list"
+      list(songs)
+    if input = "play"
+      play(songs)
+    if input = "exit"
+      exit_jukebox
+      break
+    end
+  end
+end
     
+      
   
   
   
