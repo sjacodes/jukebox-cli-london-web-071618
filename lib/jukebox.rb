@@ -48,11 +48,11 @@ def run(songs)
     input = gets.chomp
   end
     if input = "help"
-      help
+      puts help
     if input = "list"
-      list(songs)
+      puts list(songs)
     if input = "play"
-      play(songs)
+      puts play(songs)
     if input = "exit"
       break
     end
